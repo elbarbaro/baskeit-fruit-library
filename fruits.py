@@ -2,7 +2,7 @@ class Fruit:
 	name = ''
 	color = ''
 	size = ''
-	is_active = True
+	is_active = False
 
 	def __init__(self, name, color, size):
 		self.name = name
