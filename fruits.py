@@ -38,3 +38,6 @@ class Basket:
 		if self.is_active:
 			for friut in fruits:
 				print(f'Fruta {fruit}')
+				fruit.cut()
+
+
